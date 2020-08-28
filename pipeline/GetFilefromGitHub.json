@@ -2,6 +2,11 @@
 	"name": "GetFilefromGitHub",
 	"properties": {
 		"description": "This pipeline will the .csv file from Git Hub ",
+		"parameters": {
+			"GetFile": {
+				"type": "string"
+			}
+		},
 		"annotations": []
 	}
 }
